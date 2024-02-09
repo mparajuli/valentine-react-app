@@ -123,9 +123,10 @@
   /* Allow scroll for the body when VirtualGift component is rendered */
   body.virtual-gift-active {
     overflow-y: auto;
+    overflow-x: hidden;
   }
   .cart {
-    width: 89%;
+    width: 80%;
     margin: 0 auto;
   }
 }
