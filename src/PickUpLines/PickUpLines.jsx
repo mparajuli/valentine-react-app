@@ -99,4 +99,9 @@ PickUpLines.propTypes = {
   onProposal: PropTypes.func.isRequired, // onProposal prop must be a function and is required
 };
 
+// Add default props
+PickUpLines.defaultProps = {
+  onProposal: () => {}, // Default function does nothing
+};
+
 export default PickUpLines;

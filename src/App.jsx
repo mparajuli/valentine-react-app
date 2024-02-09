@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navbar from "./Navbar/Navbar.jsx";
 import PickUpLines from "./PickUpLines/PickUpLines.jsx";
 import Proposal from "./Proposal/Proposal.jsx";
-import RosePetal from "./RosePetal/RosePetal.jsx";
+import HeartImage from "./HeartImage/HeartImage.jsx";
 import loveImage from "./assets/love.png";
 import VirtualGift from "./VirtualGift/VirtualGift.jsx";
 import "./App.css";
@@ -34,7 +34,7 @@ function App() {
 
   // Create an array of rose petal components with random positions
   const rosePetals = Array.from({ length: numPetals }, (_, index) => (
-    <RosePetal key={index} position={getRandomPosition()} />
+    <HeartImage key={index} position={getRandomPosition()} />
   ));
 
   return (

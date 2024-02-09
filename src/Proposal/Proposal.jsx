@@ -46,4 +46,9 @@ Proposal.propTypes = {
   onResponse: PropTypes.func.isRequired, // onResponse prop must be a function and is required
 };
 
+// Add default props
+Proposal.defaultProps = {
+  onResponse: () => {}, // Default function does nothing
+};
+
 export default Proposal;

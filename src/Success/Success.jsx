@@ -64,4 +64,9 @@ Success.propTypes = {
   onClose: PropTypes.func.isRequired, // onClose prop must be a function and is required
 };
 
+// Add default props
+Success.defaultProps = {
+  onClose: () => {}, // Default function does nothing
+};
+
 export default Success;

@@ -1,14 +1,14 @@
-.rose-petal {
+.heart-image {
   position: absolute;
-  width: 20px;
-  height: 20px;
-  background-image: url("../assets/rose_petal.png");
+  width: 22px;
+  height: 15px;
+  background-image: url("../assets/heart.png");
   background-size: cover;
   z-index: 0; /* Set z-index to position petals behind other content */
-  animation: falling-petal 10s linear infinite;
+  animation: falling-image 10s linear infinite;
 }
 
-@keyframes falling-petal {
+@keyframes falling-image {
   0% {
     transform: translateY(-10vh);
     opacity: 0;
