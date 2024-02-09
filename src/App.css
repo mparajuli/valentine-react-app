@@ -38,6 +38,9 @@ button:hover {
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
   .love-image {
     bottom: 0%;
     left: 5%;
