@@ -32,7 +32,7 @@ const Success = ({ onClose }) => {
           className="form-input"
           type="text"
           name="name"
-          placeholder="Her royal majesty's full name"
+          placeholder="Her majesty's name"
           required
         />
         <textarea
