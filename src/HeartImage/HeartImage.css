@@ -4,6 +4,7 @@
   height: 15px;
   background-image: url("../assets/heart.png");
   background-size: cover;
+  z-index: 0;
   animation: falling-image 10s linear infinite;
 }
 
