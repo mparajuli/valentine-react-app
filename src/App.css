@@ -34,6 +34,7 @@ button:hover {
   width: 300px;
   height: auto;
   transform: rotate(335deg);
+  z-index: -1;
 }
 
 /* Responsive styles */
@@ -42,8 +43,6 @@ button:hover {
     overflow-x: hidden;
   }
   .love-image {
-    bottom: 0%;
-    left: 5%;
     width: 150px;
   }
 }

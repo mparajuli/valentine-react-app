@@ -124,6 +124,9 @@
   body.virtual-gift-active {
     overflow-y: auto;
   }
+  .virtual-gift-active .love-image {
+    display: none;
+  }
   .cart {
     width: 80%;
     margin: 0 auto;

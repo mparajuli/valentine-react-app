@@ -40,9 +40,9 @@ function App() {
   return (
     <>
       <Navbar />
+      {rosePetals}
+      <img src={loveImage} alt="Love" className="love-image" />
       <div className="App">
-        {rosePetals} {/* Render rose petals */}
-        <img src={loveImage} alt="Love" className="love-image" />
         <h1>⚔️Game of Valentine🌹</h1>
         {!showProposal && !showVirtualGift && (
           <PickUpLines onProposal={() => setShowProposal(true)} />

@@ -1,9 +1,13 @@
 import "./Success.css";
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import emailjs from "emailjs-com";
 import PropTypes from "prop-types";
 
 const Success = ({ onClose }) => {
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   const form = useRef();
 
   const sendEmail = (e) => {
