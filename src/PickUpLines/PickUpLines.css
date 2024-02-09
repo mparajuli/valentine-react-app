@@ -1,0 +1,100 @@
+.card {
+  background-color: hsla(0, 6%, 83%, 0.5);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.join-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.join-button:hover {
+  background-color: #45a049;
+}
+
+.pickup-line {
+  margin-bottom: 30px;
+}
+
+.pickup-line h3 {
+  font-size: 1.5em;
+  color: #333;
+  font-family: Apple Chancery;
+}
+
+.pickup-line p {
+  font-size: 1.2em;
+  color: #555;
+  font-family: Optima, sans-serif;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.navigation-buttons button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navigation-buttons button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.navigation-buttons button:hover {
+  background-color: #1e87dc;
+}
+
+.navigation-buttons button:last-child {
+  margin-right: 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .card {
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+}

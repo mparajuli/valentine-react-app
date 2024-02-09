@@ -1,0 +1,54 @@
+.success-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.success-message {
+  font-size: 1.2rem;
+}
+
+.success-text {
+  font-size: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-input,
+.form-textarea {
+  width: 40%;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 8px rgba(10, 0, 0, 0.553);
+  background: transparent;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.form-textarea {
+  resize: none;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.send-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}

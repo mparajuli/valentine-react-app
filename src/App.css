@@ -1,0 +1,46 @@
+body {
+  background-color: #f8bbd0;
+  overflow: hidden;
+  position: relative;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #e91e63;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ad1457;
+}
+
+.love-image {
+  position: fixed;
+  bottom: 8%;
+  left: 10vw;
+  width: 300px;
+  height: auto;
+  transform: rotate(335deg);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .love-image {
+    bottom: 0%;
+    left: 5%;
+    width: 150px;
+  }
+}

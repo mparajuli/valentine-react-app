@@ -1,0 +1,45 @@
+.card {
+  background-color: hsla(0, 6%, 83%, 0.5);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+  color: #555;
+  font-family: Optima, sans-serif;
+}
+
+.response-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.response-button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.response-button:hover {
+  background-color: #1e87dc;
+}
+
+.no {
+  font-size: 16px;
+  height: 50px;
+}
